@@ -7,14 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7551A19C9DF7BC18FD67CF90 /* Pods_Jenkins_Integration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F61C125D2E85618EA88DC09 /* Pods_Jenkins_Integration.framework */; };
 		D2C6517A1DBF2EB800CE3AF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C651791DBF2EB800CE3AF9 /* AppDelegate.swift */; };
 		D2C6517C1DBF2EB800CE3AF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C6517B1DBF2EB800CE3AF9 /* ViewController.swift */; };
 		D2C6517F1DBF2EB800CE3AF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2C6517D1DBF2EB800CE3AF9 /* Main.storyboard */; };
 		D2C651811DBF2EB800CE3AF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C651801DBF2EB800CE3AF9 /* Assets.xcassets */; };
 		D2C651841DBF2EB800CE3AF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2C651821DBF2EB800CE3AF9 /* LaunchScreen.storyboard */; };
+		D2C651921DBF35D900CE3AF9 /* Jenkins_IntegrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C651911DBF35D900CE3AF9 /* Jenkins_IntegrationUITests.swift */; };
+		D2C651A01DBF35E500CE3AF9 /* Jenkins_IntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C6519F1DBF35E500CE3AF9 /* Jenkins_IntegrationTests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D2C651941DBF35D900CE3AF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2C6516E1DBF2EB700CE3AF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2C651751DBF2EB700CE3AF9;
+			remoteInfo = Jenkins_Integration;
+		};
+		D2C651A21DBF35E500CE3AF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2C6516E1DBF2EB700CE3AF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2C651751DBF2EB700CE3AF9;
+			remoteInfo = Jenkins_Integration;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0F61C125D2E85618EA88DC09 /* Pods_Jenkins_Integration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jenkins_Integration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C651761DBF2EB800CE3AF9 /* Jenkins_Integration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jenkins_Integration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C651791DBF2EB800CE3AF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2C6517B1DBF2EB800CE3AF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,10 +43,33 @@
 		D2C651801DBF2EB800CE3AF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2C651831DBF2EB800CE3AF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2C651851DBF2EB800CE3AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2C6518F1DBF35D900CE3AF9 /* Jenkins_IntegrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jenkins_IntegrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2C651911DBF35D900CE3AF9 /* Jenkins_IntegrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jenkins_IntegrationUITests.swift; sourceTree = "<group>"; };
+		D2C651931DBF35D900CE3AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2C6519D1DBF35E500CE3AF9 /* Jenkins_IntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jenkins_IntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2C6519F1DBF35E500CE3AF9 /* Jenkins_IntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jenkins_IntegrationTests.swift; sourceTree = "<group>"; };
+		D2C651A11DBF35E500CE3AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D43322A77D5FE07C9E686D /* Pods-Jenkins_Integration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jenkins_Integration.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jenkins_Integration/Pods-Jenkins_Integration.debug.xcconfig"; sourceTree = "<group>"; };
+		E68F2B3DCE0007DDC36D49DF /* Pods-Jenkins_Integration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jenkins_Integration.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jenkins_Integration/Pods-Jenkins_Integration.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D2C651731DBF2EB700CE3AF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7551A19C9DF7BC18FD67CF90 /* Pods_Jenkins_Integration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C6518C1DBF35D900CE3AF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C6519A1DBF35E500CE3AF9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,11 +79,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6586EA3CC4871BE6FA5EF5B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3D43322A77D5FE07C9E686D /* Pods-Jenkins_Integration.debug.xcconfig */,
+				E68F2B3DCE0007DDC36D49DF /* Pods-Jenkins_Integration.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A4934738F194A2D5029AF1FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F61C125D2E85618EA88DC09 /* Pods_Jenkins_Integration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D2C6516D1DBF2EB700CE3AF9 = {
 			isa = PBXGroup;
 			children = (
 				D2C651781DBF2EB800CE3AF9 /* Jenkins_Integration */,
+				D2C651901DBF35D900CE3AF9 /* Jenkins_IntegrationUITests */,
+				D2C6519E1DBF35E500CE3AF9 /* Jenkins_IntegrationTests */,
 				D2C651771DBF2EB800CE3AF9 /* Products */,
+				6586EA3CC4871BE6FA5EF5B1 /* Pods */,
+				A4934738F194A2D5029AF1FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				D2C651761DBF2EB800CE3AF9 /* Jenkins_Integration.app */,
+				D2C6518F1DBF35D900CE3AF9 /* Jenkins_IntegrationUITests.xctest */,
+				D2C6519D1DBF35E500CE3AF9 /* Jenkins_IntegrationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +131,24 @@
 			path = Jenkins_Integration;
 			sourceTree = "<group>";
 		};
+		D2C651901DBF35D900CE3AF9 /* Jenkins_IntegrationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2C651911DBF35D900CE3AF9 /* Jenkins_IntegrationUITests.swift */,
+				D2C651931DBF35D900CE3AF9 /* Info.plist */,
+			);
+			path = Jenkins_IntegrationUITests;
+			sourceTree = "<group>";
+		};
+		D2C6519E1DBF35E500CE3AF9 /* Jenkins_IntegrationTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2C6519F1DBF35E500CE3AF9 /* Jenkins_IntegrationTests.swift */,
+				D2C651A11DBF35E500CE3AF9 /* Info.plist */,
+			);
+			path = Jenkins_IntegrationTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2C651881DBF2EB800CE3AF9 /* Build configuration list for PBXNativeTarget "Jenkins_Integration" */;
 			buildPhases = (
+				342DF16A38CF978D9597450F /* [CP] Check Pods Manifest.lock */,
 				D2C651721DBF2EB700CE3AF9 /* Sources */,
 				D2C651731DBF2EB700CE3AF9 /* Frameworks */,
 				D2C651741DBF2EB700CE3AF9 /* Resources */,
+				B0A566B414D5C4EDF202DDFF /* [CP] Embed Pods Frameworks */,
+				B77C17567C988AC2F4CCCEB9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -83,6 +171,42 @@
 			productName = Jenkins_Integration;
 			productReference = D2C651761DBF2EB800CE3AF9 /* Jenkins_Integration.app */;
 			productType = "com.apple.product-type.application";
+		};
+		D2C6518E1DBF35D900CE3AF9 /* Jenkins_IntegrationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2C651981DBF35D900CE3AF9 /* Build configuration list for PBXNativeTarget "Jenkins_IntegrationUITests" */;
+			buildPhases = (
+				D2C6518B1DBF35D900CE3AF9 /* Sources */,
+				D2C6518C1DBF35D900CE3AF9 /* Frameworks */,
+				D2C6518D1DBF35D900CE3AF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2C651951DBF35D900CE3AF9 /* PBXTargetDependency */,
+			);
+			name = Jenkins_IntegrationUITests;
+			productName = Jenkins_IntegrationUITests;
+			productReference = D2C6518F1DBF35D900CE3AF9 /* Jenkins_IntegrationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D2C6519C1DBF35E500CE3AF9 /* Jenkins_IntegrationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2C651A41DBF35E500CE3AF9 /* Build configuration list for PBXNativeTarget "Jenkins_IntegrationTests" */;
+			buildPhases = (
+				D2C651991DBF35E500CE3AF9 /* Sources */,
+				D2C6519A1DBF35E500CE3AF9 /* Frameworks */,
+				D2C6519B1DBF35E500CE3AF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2C651A31DBF35E500CE3AF9 /* PBXTargetDependency */,
+			);
+			name = Jenkins_IntegrationTests;
+			productName = Jenkins_IntegrationTests;
+			productReference = D2C6519D1DBF35E500CE3AF9 /* Jenkins_IntegrationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -97,6 +221,16 @@
 					D2C651751DBF2EB700CE3AF9 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
+					};
+					D2C6518E1DBF35D900CE3AF9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D2C651751DBF2EB700CE3AF9;
+					};
+					D2C6519C1DBF35E500CE3AF9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D2C651751DBF2EB700CE3AF9;
 					};
 				};
 			};
@@ -114,6 +248,8 @@
 			projectRoot = "";
 			targets = (
 				D2C651751DBF2EB700CE3AF9 /* Jenkins_Integration */,
+				D2C6518E1DBF35D900CE3AF9 /* Jenkins_IntegrationUITests */,
+				D2C6519C1DBF35E500CE3AF9 /* Jenkins_IntegrationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -129,7 +265,69 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D2C6518D1DBF35D900CE3AF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C6519B1DBF35E500CE3AF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		342DF16A38CF978D9597450F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B0A566B414D5C4EDF202DDFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jenkins_Integration/Pods-Jenkins_Integration-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B77C17567C988AC2F4CCCEB9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jenkins_Integration/Pods-Jenkins_Integration-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D2C651721DBF2EB700CE3AF9 /* Sources */ = {
@@ -141,7 +339,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D2C6518B1DBF35D900CE3AF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C651921DBF35D900CE3AF9 /* Jenkins_IntegrationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C651991DBF35E500CE3AF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C651A01DBF35E500CE3AF9 /* Jenkins_IntegrationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2C651951DBF35D900CE3AF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2C651751DBF2EB700CE3AF9 /* Jenkins_Integration */;
+			targetProxy = D2C651941DBF35D900CE3AF9 /* PBXContainerItemProxy */;
+		};
+		D2C651A31DBF35E500CE3AF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2C651751DBF2EB700CE3AF9 /* Jenkins_Integration */;
+			targetProxy = D2C651A21DBF35E500CE3AF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D2C6517D1DBF2EB800CE3AF9 /* Main.storyboard */ = {
@@ -258,6 +485,7 @@
 		};
 		D2C651891DBF2EB800CE3AF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3D43322A77D5FE07C9E686D /* Pods-Jenkins_Integration.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Jenkins_Integration/Info.plist;
@@ -270,6 +498,7 @@
 		};
 		D2C6518A1DBF2EB800CE3AF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E68F2B3DCE0007DDC36D49DF /* Pods-Jenkins_Integration.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Jenkins_Integration/Info.plist;
@@ -277,6 +506,56 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mobility.tcs.com.Jenkins-Integration";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D2C651961DBF35D900CE3AF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Jenkins_IntegrationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobility.tcs.com.Jenkins-IntegrationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Jenkins_Integration;
+			};
+			name = Debug;
+		};
+		D2C651971DBF35D900CE3AF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Jenkins_IntegrationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobility.tcs.com.Jenkins-IntegrationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Jenkins_Integration;
+			};
+			name = Release;
+		};
+		D2C651A51DBF35E500CE3AF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Jenkins_IntegrationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobility.tcs.com.Jenkins-IntegrationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jenkins_Integration.app/Jenkins_Integration";
+			};
+			name = Debug;
+		};
+		D2C651A61DBF35E500CE3AF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Jenkins_IntegrationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobility.tcs.com.Jenkins-IntegrationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jenkins_Integration.app/Jenkins_Integration";
 			};
 			name = Release;
 		};
@@ -297,6 +576,23 @@
 			buildConfigurations = (
 				D2C651891DBF2EB800CE3AF9 /* Debug */,
 				D2C6518A1DBF2EB800CE3AF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2C651981DBF35D900CE3AF9 /* Build configuration list for PBXNativeTarget "Jenkins_IntegrationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2C651961DBF35D900CE3AF9 /* Debug */,
+				D2C651971DBF35D900CE3AF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2C651A41DBF35E500CE3AF9 /* Build configuration list for PBXNativeTarget "Jenkins_IntegrationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2C651A51DBF35E500CE3AF9 /* Debug */,
+				D2C651A61DBF35E500CE3AF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
