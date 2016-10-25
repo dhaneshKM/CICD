@@ -217,9 +217,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6EDA04D0F836210D6086A4696E6A8BA2 /* Pods-Jenkins_Integration.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer: TCSKochi MobilityIOS (RFNV9ARUG7)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: TCSKochi MobilityIOS (RFNV9ARUG7)";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -253,9 +253,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EAFC81060E47A13056D4DC526829B33F /* Pods-Jenkins_Integration.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer: TCSKochi MobilityIOS (RFNV9ARUG7)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: TCSKochi MobilityIOS (RFNV9ARUG7)";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
