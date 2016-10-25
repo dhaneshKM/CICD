@@ -488,6 +488,7 @@
 			baseConfigurationReference = D3D43322A77D5FE07C9E686D /* Pods-Jenkins_Integration.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = Jenkins_Integration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mobility.tcs.com.Jenkins-Integration";
@@ -501,6 +502,7 @@
 			baseConfigurationReference = E68F2B3DCE0007DDC36D49DF /* Pods-Jenkins_Integration.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = Jenkins_Integration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mobility.tcs.com.Jenkins-Integration";
