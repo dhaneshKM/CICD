@@ -219,7 +219,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer: TCSKochi MobilityIOS (RFNV9ARUG7)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: TCSKochi MobilityIOS (RFNV9ARUG7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -255,7 +255,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer: TCSKochi MobilityIOS (RFNV9ARUG7)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: TCSKochi MobilityIOS (RFNV9ARUG7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";

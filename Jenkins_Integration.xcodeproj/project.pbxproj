@@ -220,8 +220,8 @@
 				TargetAttributes = {
 					D2C651751DBF2EB700CE3AF9 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = PQK5J86Z5Z;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 6ZF9TD7CTE;
+						ProvisioningStyle = Manual;
 					};
 					D2C6518E1DBF35D900CE3AF9 = {
 						CreatedOnToolsVersion = 8.0;
@@ -489,13 +489,15 @@
 			baseConfigurationReference = D3D43322A77D5FE07C9E686D /* Pods-Jenkins_Integration.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: TCSKochi MobilityIOS (RFNV9ARUG7)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: TCSKochi MobilityIOS (RFNV9ARUG7)";
-				DEVELOPMENT_TEAM = PQK5J86Z5Z;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tata Consultancy Services Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tata Consultancy Services Limited";
+				DEVELOPMENT_TEAM = 6ZF9TD7CTE;
 				INFOPLIST_FILE = Jenkins_Integration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mobility.tcs.com.Jenkins-Integration";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tcs.mobility.Jenkins-Integration";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "36653f57-3870-4f9d-8e32-cba56f0abe74";
+				PROVISIONING_PROFILE_SPECIFIER = "TCS Distribution Profile 16To17";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -505,13 +507,15 @@
 			baseConfigurationReference = E68F2B3DCE0007DDC36D49DF /* Pods-Jenkins_Integration.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: TCSKochi MobilityIOS (RFNV9ARUG7)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: TCSKochi MobilityIOS (RFNV9ARUG7)";
-				DEVELOPMENT_TEAM = PQK5J86Z5Z;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tata Consultancy Services Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tata Consultancy Services Limited";
+				DEVELOPMENT_TEAM = 6ZF9TD7CTE;
 				INFOPLIST_FILE = Jenkins_Integration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mobility.tcs.com.Jenkins-Integration";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tcs.mobility.Jenkins-Integration";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "36653f57-3870-4f9d-8e32-cba56f0abe74";
+				PROVISIONING_PROFILE_SPECIFIER = "TCS Distribution Profile 16To17";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
